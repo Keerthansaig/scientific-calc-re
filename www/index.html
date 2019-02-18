@@ -1,0 +1,65 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript" src="js/index.js"></script>
+<title>This is for my friends!</title>
+<!-- BTW PEEPS, I FOUND A COUPLE BUGS AND PROBABLY WILL FIX THEM MID MARCH HAHA BECAUSE IT'S 1ST WEEK OF SCHOOL -->
+</head>
+<body>
+<p id=myPara></p>
+<p id=myAns>0</p>
+<table>
+    <tr>
+    <td colspan=5><input id=result readonly></td>
+    </tr>
+        
+    <tr>
+    <td onclick="shiftFn(1)" id=shiftBtn style="background-color: chartreuse">Shift</td>
+    <td onclick="trigo('sin')" style="background-color: blue">sin</td>
+    <td onclick="trigo('cos')" style="background-color: blue">cos</td>
+    <td onclick="trigo('tan')" style="background-color: blue">tan</td>
+    <td onclick="input('!')" style="background-color: blue">!</td>
+    </tr>
+    
+    <tr>
+    <td onclick="input('^(')" style="background-color: blue">^</td>
+    <td onclick="sqrt()" style="background-color: blue">sqrt</td>
+    <td onclick="leftParen()" style="background-color: blue">(</td>
+    <td onclick="input(')')" style="background-color: blue">)</td>
+    <td onclick="log(1)" style="background-color: blue">log</td>
+    </tr>
+    
+    <tr>
+    <td onclick="input('7')">7</td>
+    <td onclick="input('8')">8</td>
+    <td onclick="input('9')">9</td>
+    <td onclick="del()" style="background-color: orange">DEL</td>
+    <td onclick="ac()" id="ac1" style=" background-color:crimson" >AC</td>
+    </tr>
+    
+    <tr>
+    <td onclick="input('4')">4</td>
+    <td onclick="input('5')">5</td>
+    <td onclick="input('6')">6</td>
+    <td onclick="multOrDiv('mult')" style="background-color: blue">&#x00D7;</td>
+    <td onclick="multOrDiv('div')" style="background-color: blue">&#x00F7;</td>
+    </tr>
+    
+    <tr>
+    <td onclick="input('1')">1</td>
+    <td onclick="input('2')">2</td>
+    <td onclick="input('3')">3</td>
+    <td onclick="input('+')" style="background-color: blue" >+</td>
+    <td onclick="input('-')"style="background-color: blue">-</td>
+    </tr>
+    
+    <tr>
+    <td onclick="input('0')">0</td>
+    <td onclick="input('.')">.</td>
+    <td onclick="piOrE('pi')">&#x03C0;</td>
+    <td onclick="ans()" style="background-color: blue">Ans</td>
+    <td onclick="equal()" style="background-color: violet">=</td>
+    </tr>
+</table>
+</body>
+</html>
